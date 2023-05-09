@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="./icono.jpg">
+    <link rel="stylesheet" href="/app/css/home.css">
+    <title>The new route</title>
+</head>
+
+<body>
+    <header>Un viaje de ensueño</header>
+    <nav>
+        <div>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Contacto</a>
+        </div>
+    </nav>
+
+    <h1>¿Dónde desea viajar?</h1>
+    <div id="divBusqueda">
+        <form onsubmit="envio()" onreset="limpiar()">
+            <input id="textBox" type="text" placeholder="Introduce un país de destino..." onblur="captura('onblur')"
+                onfocus="captura('onfocus')" onchange="cambiar ()">
+                <br>
+            <input id="btnSubmit" type="submit" value="Aceptar">
+            <input id="btnClean" type="reset" value="Limpiar">
+        </form> 
+    </div>
+    
+    <script src="../js/main.js"></script>
+</body>
+</html>

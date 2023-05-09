@@ -1,0 +1,5 @@
+/* Importar los CSS al home */
+@import "../css/home_globals.css";
+@import "../css/home_header.css";
+@import "../css/home_section.css";
+@import "../css/home_footer.css";

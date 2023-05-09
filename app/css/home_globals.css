@@ -1,0 +1,22 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Verdana", sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+	/* Quita esto cuando quieras desplazarte hacia 
+	abajo en la página - scrollY (vertical) :D */
+	overflow-y: hidden;
+}
+
+ /* Estilo del cuerpo general */
+body {
+    background-image: url("../src/img/background2.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    overflow-x: hidden;
+	min-height: 100vh;
+}
