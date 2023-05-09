@@ -3,6 +3,7 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: "Verdana", sans-serif;
+	box-sizing: border-box;
 }
 
 html {
@@ -18,5 +19,5 @@ body {
     background-repeat: no-repeat; 
     background-size: cover;
     overflow-x: hidden;
-	min-height: 100vh;
+		min-height: 100vh;
 }

@@ -10,6 +10,7 @@ h1 {
 
 #divBusqueda {
     text-align: center;
+		margin-bottom: 1%;
 }
 
 form {
@@ -38,7 +39,7 @@ form #textBox {
 
 #btnSubmit, #btnClean {
     width: 5em;
-    height: 2em;
+    height: 2.5em;
     border-radius: 5px;
     background-color: #fff;
     color: #000;
@@ -48,3 +49,66 @@ form #textBox {
     background-color: #000;
     color: #fff;
 }
+
+#inputCalendario {
+	position: absolute;
+	display: inline-block;
+	width: 5em;
+	height: 5em;
+	margin-top: -5%;
+	margin-left: 60%;
+}
+
+#inputCalendario img {
+	width: 5em;
+	height: 5em;
+  margin: auto;
+  object-fit: contain;
+}
+
+#inputCalendario img:hover {
+	cursor: pointer;
+}
+
+.fechaImg {
+	margin-left: 0.675em;
+	font-weight: bold;
+}
+
+.tablaCalendario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.calendario {
+  max-width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-weight: 800;
+  width: 100%;
+}
+
+.calendario th,
+.calendario td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.calendario th {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+table.calendario td:empty {
+  pointer-events: none;
+}
+
+.calendario td:hover:not(empty) {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
